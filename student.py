@@ -38,6 +38,18 @@ def addStudent():
             
     except ValueError:
         print("please enter numeric value...")
-        
+
     except (KeyError, TypeError) as e:
         print("Student data error:", e)
+
+def showAllStudents():
+
+    students = loadStudents()
+    
+    if not students:
+        print("no students found!")
+        return
+        
+    for student in students:
+        print(f"ID: {student['id']}  \ Ad: {student['name']} \ Soyad: {student['surname']} \ Yaş: {student['age']} \ Qiymetler: {student['grades']}")
+        
