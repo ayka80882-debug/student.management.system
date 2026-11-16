@@ -51,7 +51,7 @@ def showAllStudents():
         return
         
     for student in students:
-        print(f"ID: {student['id']}  \ Ad: {student['name']} \ Soyad: {student['surname']} \ Yaş: {student['age']} \ Qiymetler: {student['grades']}")
+        print(f"ID: {student['id']}   Ad: {student['name']}  Soyad: {student['surname']}  Yaş: {student['age']}  Qiymetler: {student['grades']}")
 
 def updateStudent():
     students = loadStudents()
@@ -114,4 +114,18 @@ def removeStudent():
         
     except ValueError:
         print("please enter numeric value...")
+
+def searchStudent():
+    students = loadStudents()
+    
+    search_name = input("enter name to search: ").strip().lower()
+    found = False
+    
+    for student in students:
+        if search_name in student["name"].lower():
+            print(f"ID: {student['id']}   Ad: {student['name']}  Soyad: {student['surname']}  Yaş: {student['age']}  Qiymetler: {student['grades']}")
+            found = True
+            
+    if not found:
+        print("student not found!")
 
