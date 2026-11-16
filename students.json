@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Ali",
+        "surname": "Aliyev",
+        "age": 19,
+        "grades": [85, 90, 78]
+    },
+    {
+        "id": 2,
+        "name": "Leyla",
+        "surname": "Mammadova",
+        "age": 20,
+        "grades": [92, 88, 95]
+    },
+    {
+        "id": 3,
+        "name": "Orxan",
+        "surname": "Huseynov",
+        "age": 21,
+        "grades": [70, 75, 80]
+    },
+    {
+        "id": 4,
+        "name": "Gunel",
+        "surname": "Guliyeva",
+        "age": 18,
+        "grades": [95, 91, 98]
+    },
+    {
+        "id": 5,
+        "name": "Farid",
+        "surname": "Karimov",
+        "age": 22,
+        "grades": [65, 72, 80]
+    },
+    {
+        "id": 6,
+        "name": "Aysel",
+        "surname": "Ahmadova",
+        "age": 19,
+        "grades": [88, 84, 90]
+    },
+    {
+        "id": 7,
+        "name": "Murad",
+        "surname": "Gasimov",
+        "age": 20,
+        "grades": [79, 82, 85]
+    },
+    {
+        "id": 8,
+        "name": "Sabina",
+        "surname": "Mammadova",
+        "age": 19,
+        "grades": [92, 89, 95]
+    },
+    {
+        "id": 9,
+        "name": "Tural",
+        "surname": "Hajiyev",
+        "age": 23,
+        "grades": [60, 70, 75]
+    },
+    {
+        "id": 10,
+        "name": "Amina",
+        "surname": "Guliyeva",
+        "age": 20,
+        "grades": [98, 96, 94]
+    }
+]
