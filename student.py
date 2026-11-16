@@ -96,3 +96,22 @@ def updateStudent():
     except (KeyError, TypeError) as e:
         print("Student data error:", e)
 
+def removeStudent():
+    students = loadStudents()
+    
+    try:
+        student_id = int(input("enter student id: "))
+        
+        for student in students:
+            if student["id"] == student_id:
+                students.remove(student)
+                
+                if saveStudents(students):
+                    print("Student removed successfully!")
+                return
+                
+        print("student not found!")
+        
+    except ValueError:
+        print("please enter numeric value...")
+
